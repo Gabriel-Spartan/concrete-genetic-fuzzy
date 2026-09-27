@@ -1,0 +1,5 @@
+compressive_strength,Train_Count,Train_Pct,Val_Count,Val_Pct,Test_Count,Test_Pct
+media_baja,216,30.73,47,31.13,46,30.46
+media_alta,195,27.74,42,27.81,42,27.81
+baja,148,21.05,31,20.53,32,21.19
+alta,144,20.48,31,20.53,31,20.53

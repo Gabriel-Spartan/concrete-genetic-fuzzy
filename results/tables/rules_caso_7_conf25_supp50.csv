@@ -1,0 +1,22 @@
+consequent,n_terms,rule,train_ant_supp,train_rule_supp,train_supp_pct,train_conf,train_lift,val_ant_supp,val_rule_supp,val_conf,val_lift
+alta,1,IF age == 'madura' THEN compressive_strength == 'alta',55,24,3.41,0.4364,2.13,14,8,0.5714,2.783
+alta,1,IF age == 'largo_plazo' THEN compressive_strength == 'alta',131,51,7.25,0.3893,1.901,27,10,0.3704,1.804
+alta,1,IF cement == 'alto' THEN compressive_strength == 'alta',260,102,14.51,0.3923,1.915,46,20,0.4348,2.118
+alta,1,IF superplasticizer == 'medio' THEN compressive_strength == 'alta',82,26,3.7,0.3171,1.548,18,5,0.2778,1.353
+alta,1,IF superplasticizer == 'alto' THEN compressive_strength == 'alta',163,62,8.82,0.3804,1.857,35,11,0.3143,1.531
+alta,1,IF blast_furnace_slag == 'alto' THEN compressive_strength == 'alta',156,40,5.69,0.2564,1.252,33,6,0.1818,0.886
+baja,1,IF age == 'muy_temprana' THEN compressive_strength == 'baja',230,116,16.5,0.5043,2.396,49,25,0.5102,2.485
+baja,1,IF fly_ash == 'alto' THEN compressive_strength == 'baja',96,29,4.13,0.3021,1.435,25,4,0.16,0.779
+baja,1,IF superplasticizer == 'no_aplica' THEN compressive_strength == 'baja',265,86,12.23,0.3245,1.542,58,21,0.3621,1.764
+media_alta,1,IF age == 'largo_plazo' THEN compressive_strength == 'media_alta',131,57,8.11,0.4351,1.569,27,14,0.5185,1.864
+media_alta,1,IF age == 'madura' THEN compressive_strength == 'media_alta',55,22,3.13,0.4,1.442,14,5,0.3571,1.284
+media_alta,1,IF age == 'estandar' THEN compressive_strength == 'media_alta',287,83,11.81,0.2892,1.043,61,19,0.3115,1.12
+media_alta,1,IF superplasticizer == 'alto' THEN compressive_strength == 'media_alta',163,47,6.69,0.2883,1.04,35,13,0.3714,1.335
+media_alta,1,IF superplasticizer == 'medio' THEN compressive_strength == 'media_alta',82,25,3.56,0.3049,1.099,18,3,0.1667,0.599
+media_alta,1,IF fine_aggregate == 'poco' THEN compressive_strength == 'media_alta',253,78,11.1,0.3083,1.111,49,17,0.3469,1.247
+media_baja,1,IF water == 'alto' THEN compressive_strength == 'media_baja',182,74,10.53,0.4066,1.323,33,10,0.303,0.974
+media_baja,1,IF water == 'medio' THEN compressive_strength == 'media_baja',275,94,13.37,0.3418,1.112,67,20,0.2985,0.959
+media_baja,2,IF water == 'poco' AND age == 'muy_temprana' THEN compressive_strength == 'media_baja',83,31,4.41,0.3735,1.216,20,12,0.6,1.928
+media_baja,1,IF fly_ash == 'medio' THEN compressive_strength == 'media_baja',109,38,5.41,0.3486,1.135,17,7,0.4118,1.323
+media_baja,1,IF fly_ash == 'alto' THEN compressive_strength == 'media_baja',96,32,4.55,0.3333,1.085,25,11,0.44,1.414
+media_baja,1,IF fly_ash == 'poco' THEN compressive_strength == 'media_baja',119,38,5.41,0.3193,1.039,27,14,0.5185,1.666

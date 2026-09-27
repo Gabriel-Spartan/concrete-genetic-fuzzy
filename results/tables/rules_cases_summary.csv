@@ -1,0 +1,9 @@
+Caso,Descripción,Conf_Min,Supp_Min,Num_Reglas,Train_Conf_Media,Train_Lift_Medio,Val_Conf_Media,Val_Lift_Medio,Archivo_CSV
+caso_1,Caso 1: Confianza 50% - Soporte 50,50%,50,3,0.5495,2.36,0.4588,1.993,rules_caso_1_conf50_supp50.csv
+caso_2,Caso 2: Confianza 80% - Soporte 50,80%,50,0,0.0,0.0,0.0,0.0,rules_caso_2_conf80_supp50.csv
+caso_3,Caso 3: Confianza 50% - Soporte 80,50%,80,1,0.5043,2.396,0.5102,2.485,rules_caso_3_conf50_supp80.csv
+caso_4,Caso 4: Confianza 80% - Soporte 80,80%,80,0,0.0,0.0,0.0,0.0,rules_caso_4_conf80_supp80.csv
+caso_5,Caso 5: Confianza 50% - Soporte 25,50%,25,15,0.5687,2.402,0.5109,2.132,rules_caso_5_conf50_supp25.csv
+caso_6,Caso 6: Confianza 50% - Soporte 50,50%,50,3,0.5495,2.36,0.4588,1.993,rules_caso_6_conf50_supp50.csv
+caso_7,Caso 7: Confianza 25% - Soporte 50,25%,50,21,0.3548,1.438,0.3727,1.486,rules_caso_7_conf25_supp50.csv
+caso_8,Caso 8: Confianza 25% - Soporte 25,25%,25,21,0.3548,1.438,0.3727,1.486,rules_caso_8_conf25_supp25.csv

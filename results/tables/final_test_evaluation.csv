@@ -1,0 +1,3 @@
+Modelo,Partición,N_muestras,RMSE_MPa,MAE_MPa,R2,MAPE_pct,Max_Error_MPa,Cobertura_pct,Filas_Huerfanas
+FIS Inicial (Baseline),Test (15% Ciego),151,13.0591,9.8174,0.3649,30.52,46.42,92.05,12
+FIS Sintonizado (GA),Test (15% Ciego),151,9.7852,7.7489,0.6434,27.64,30.94,99.34,1

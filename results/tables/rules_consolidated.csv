@@ -1,0 +1,16 @@
+consequent,rule,train_conf,train_lift,train_rule_supp,train_supp_pct,val_conf,val_lift,source_files
+alta,IF water == 'poco' AND age == 'estandar' AND cement == 'alto' THEN compressive_strength == 'alta',0.825,4.028,33,4.69,1.0,4.871,rules_caso_5_conf50_supp25.csv
+alta,IF blast_furnace_slag == 'poco' AND age == 'largo_plazo' THEN compressive_strength == 'alta',0.6429,3.138,18,2.56,0.6,2.923,rules_caso_5_conf50_supp25.csv
+alta,IF age == 'largo_plazo' AND fine_aggregate == 'poco' THEN compressive_strength == 'alta',0.6364,3.107,28,3.98,0.5,2.435,rules_caso_5_conf50_supp25.csv
+alta,IF superplasticizer == 'alto' AND fly_ash == 'no_aplica' THEN compressive_strength == 'alta',0.5902,2.881,36,5.12,0.4286,2.088,"rules_caso_1_conf50_supp50.csv, rules_caso_5_conf50_supp25.csv, rules_caso_6_conf50_supp50.csv"
+alta,IF cement == 'alto' AND age == 'largo_plazo' THEN compressive_strength == 'alta',0.5417,2.644,26,3.7,0.3571,1.74,rules_caso_5_conf50_supp25.csv
+alta,IF cement == 'alto' AND age == 'estandar' AND fine_aggregate == 'poco' THEN compressive_strength == 'alta',0.5,2.441,24,3.41,0.4286,2.088,rules_caso_5_conf50_supp25.csv
+baja,IF fly_ash == 'alto' AND blast_furnace_slag == 'no_aplica' THEN compressive_strength == 'baja',0.5714,2.714,20,2.84,0.25,1.218,rules_caso_5_conf50_supp25.csv
+baja,IF age == 'muy_temprana' THEN compressive_strength == 'baja',0.5043,2.396,116,16.5,0.5102,2.485,"rules_caso_1_conf50_supp50.csv, rules_caso_3_conf50_supp80.csv, rules_caso_5_conf50_supp25.csv, rules_caso_6_conf50_supp50.csv, rules_caso_7_conf25_supp50.csv, rules_caso_8_conf25_supp25.csv"
+media_alta,IF blast_furnace_slag == 'poco' AND cement == 'medio' THEN compressive_strength == 'media_alta',0.5862,2.113,17,2.42,0.4,1.438,rules_caso_5_conf50_supp25.csv
+media_alta,IF fine_aggregate == 'poco' AND water == 'alto' AND age == 'largo_plazo' THEN compressive_strength == 'media_alta',0.5333,1.923,16,2.28,0.625,2.247,rules_caso_5_conf50_supp25.csv
+media_alta,IF age == 'largo_plazo' AND water == 'medio' THEN compressive_strength == 'media_alta',0.5217,1.881,24,3.41,0.5556,1.997,rules_caso_5_conf50_supp25.csv
+media_baja,IF age == 'estandar' AND superplasticizer == 'no_aplica' THEN compressive_strength == 'media_baja',0.5541,1.803,41,5.83,0.4375,1.406,"rules_caso_1_conf50_supp50.csv, rules_caso_5_conf50_supp25.csv, rules_caso_6_conf50_supp50.csv"
+media_baja,IF fly_ash == 'medio' AND age == 'estandar' THEN compressive_strength == 'media_baja',0.5122,1.667,21,2.99,0.5714,1.836,rules_caso_5_conf50_supp25.csv
+media_baja,IF superplasticizer == 'poco' AND fly_ash == 'alto' THEN compressive_strength == 'media_baja',0.5116,1.665,22,3.13,0.6667,2.142,rules_caso_5_conf50_supp25.csv
+media_baja,IF coarse_aggregate == 'medio' AND fine_aggregate == 'medio' THEN compressive_strength == 'media_baja',0.5,1.627,15,2.13,0.3333,1.071,rules_caso_5_conf50_supp25.csv

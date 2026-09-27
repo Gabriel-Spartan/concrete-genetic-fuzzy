@@ -1,0 +1,4 @@
+consequent,n_terms,rule,train_ant_supp,train_rule_supp,train_supp_pct,train_conf,train_lift,val_ant_supp,val_rule_supp,val_conf,val_lift
+alta,2,IF superplasticizer == 'alto' AND fly_ash == 'no_aplica' THEN compressive_strength == 'alta',61,36,5.12,0.5902,2.881,14,6,0.4286,2.088
+baja,1,IF age == 'muy_temprana' THEN compressive_strength == 'baja',230,116,16.5,0.5043,2.396,49,25,0.5102,2.485
+media_baja,2,IF age == 'estandar' AND superplasticizer == 'no_aplica' THEN compressive_strength == 'media_baja',74,41,5.83,0.5541,1.803,16,7,0.4375,1.406

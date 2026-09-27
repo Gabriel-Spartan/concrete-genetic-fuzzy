@@ -1,0 +1,16 @@
+consequent,n_terms,rule,train_ant_supp,train_rule_supp,train_supp_pct,train_conf,train_lift,val_ant_supp,val_rule_supp,val_conf,val_lift
+alta,2,IF age == 'largo_plazo' AND fine_aggregate == 'poco' THEN compressive_strength == 'alta',44,28,3.98,0.6364,3.107,12,6,0.5,2.435
+alta,2,IF superplasticizer == 'alto' AND fly_ash == 'no_aplica' THEN compressive_strength == 'alta',61,36,5.12,0.5902,2.881,14,6,0.4286,2.088
+alta,3,IF water == 'poco' AND age == 'estandar' AND cement == 'alto' THEN compressive_strength == 'alta',40,33,4.69,0.825,4.028,5,5,1.0,4.871
+alta,2,IF blast_furnace_slag == 'poco' AND age == 'largo_plazo' THEN compressive_strength == 'alta',28,18,2.56,0.6429,3.138,5,3,0.6,2.923
+alta,2,IF cement == 'alto' AND age == 'largo_plazo' THEN compressive_strength == 'alta',48,26,3.7,0.5417,2.644,14,5,0.3571,1.74
+alta,3,IF cement == 'alto' AND age == 'estandar' AND fine_aggregate == 'poco' THEN compressive_strength == 'alta',48,24,3.41,0.5,2.441,7,3,0.4286,2.088
+baja,1,IF age == 'muy_temprana' THEN compressive_strength == 'baja',230,116,16.5,0.5043,2.396,49,25,0.5102,2.485
+baja,2,IF fly_ash == 'alto' AND blast_furnace_slag == 'no_aplica' THEN compressive_strength == 'baja',35,20,2.84,0.5714,2.714,16,4,0.25,1.218
+media_alta,2,IF blast_furnace_slag == 'poco' AND cement == 'medio' THEN compressive_strength == 'media_alta',29,17,2.42,0.5862,2.113,5,2,0.4,1.438
+media_alta,3,IF fine_aggregate == 'poco' AND water == 'alto' AND age == 'largo_plazo' THEN compressive_strength == 'media_alta',30,16,2.28,0.5333,1.923,8,5,0.625,2.247
+media_alta,2,IF age == 'largo_plazo' AND water == 'medio' THEN compressive_strength == 'media_alta',46,24,3.41,0.5217,1.881,9,5,0.5556,1.997
+media_baja,2,IF age == 'estandar' AND superplasticizer == 'no_aplica' THEN compressive_strength == 'media_baja',74,41,5.83,0.5541,1.803,16,7,0.4375,1.406
+media_baja,2,IF fly_ash == 'medio' AND age == 'estandar' THEN compressive_strength == 'media_baja',41,21,2.99,0.5122,1.667,7,4,0.5714,1.836
+media_baja,2,IF superplasticizer == 'poco' AND fly_ash == 'alto' THEN compressive_strength == 'media_baja',43,22,3.13,0.5116,1.665,12,8,0.6667,2.142
+media_baja,2,IF coarse_aggregate == 'medio' AND fine_aggregate == 'medio' THEN compressive_strength == 'media_baja',30,15,2.13,0.5,1.627,3,1,0.3333,1.071

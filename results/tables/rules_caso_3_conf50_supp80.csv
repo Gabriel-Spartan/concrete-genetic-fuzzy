@@ -1,0 +1,2 @@
+consequent,n_terms,rule,train_ant_supp,train_rule_supp,train_supp_pct,train_conf,train_lift,val_ant_supp,val_rule_supp,val_conf,val_lift
+baja,1,IF age == 'muy_temprana' THEN compressive_strength == 'baja',230,116,16.5,0.5043,2.396,49,25,0.5102,2.485
