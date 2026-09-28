@@ -177,11 +177,13 @@ class FuzzyInferenceSystem:
         W = np.zeros((n_samples, n_rules), dtype=float)
 
         for k, (_, terms) in enumerate(self.rules):
-            term_mus = [memberships[(attr, label)] for attr, label in terms]
+            # 1. Obtiene los grados de verdad mu de cada condición de la regla k
+            term_mus = [memberships[(attr, label)] for attr, label in terms] # Matriz de (N_muestras x N_condiciones)
             stacked = np.column_stack(term_mus)  # (N, n_terms)
 
+            # 2. Aplica la T-norma para obtener el peso de la regla k: w_k
             if active_t_norm == "min":
-                W[:, k] = np.min(stacked, axis=1)
+                W[:, k] = np.min(stacked, axis=1) # se obtiene el peso w_k
             elif active_t_norm == "prod":
                 W[:, k] = np.prod(stacked, axis=1)
 
@@ -218,8 +220,8 @@ class FuzzyInferenceSystem:
         # 4. Defuzzificación ponderada con escape por defecto
         y_pred = np.full(n_samples, self.default_y, dtype=float)
         if np.any(valid_mask):
-            numerator = np.sum(W[valid_mask] * y_star, axis=1)
-            y_pred[valid_mask] = numerator / sum_w[valid_mask]
+            numerator = np.sum(W[valid_mask] * y_star, axis=1) # sum(w_k * y_k*)
+            y_pred[valid_mask] = numerator / sum_w[valid_mask] # dividido para sum(w_k)
 
         if return_details:
             orphan_count = int((~valid_mask).sum())
